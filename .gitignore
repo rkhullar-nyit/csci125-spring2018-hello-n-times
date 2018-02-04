@@ -143,7 +143,3 @@ fabric.properties
 
 # Used by previous versions of JEnv
 .jenv-version
-
-# custom
-.idea
-*.iml

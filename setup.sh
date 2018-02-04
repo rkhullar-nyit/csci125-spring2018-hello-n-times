@@ -1,6 +1,7 @@
 #!/bin/sh
 
 git submodule init
+git submodule update --remote
 
 cat << EOF > .git/hooks/post-merge
 #!/bin/sh
